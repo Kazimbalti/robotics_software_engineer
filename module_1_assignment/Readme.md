@@ -7,6 +7,12 @@ Create a C++ program that represents a robot equipped with temperature and dista
 Use hardcoded values to simulate sensor readings (e.g., temperature fluctuations, distance to objects).
 Print these values to the console with appropriate descriptions (e.g., "Temperature: 20°C", "Distance: 100cm").
 - **Learning Outcome**: Apply C++ syntax to simulate basic robotics concepts.
+
+- **How to simulate the Task_1:**
+    -   cd build
+    -   cmake ..
+    -   make
+    -   ./Task_1
 ### Assignment 2: Introduction to Object-Oriented Programming (OOP)
 - **Objective**: Introduce basic OOP concepts using C++ within a robotics context.
 - **Tasks**:

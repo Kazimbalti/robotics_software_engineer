@@ -1,0 +1,10 @@
+/home/ku5001006/robotism_ws/src/robotics_software_engineer/module_1_assignment/build/CMakeFiles/uninstall.dir
+/home/ku5001006/robotism_ws/src/robotics_software_engineer/module_1_assignment/build/CMakeFiles/module_1_assignment_uninstall.dir
+/home/ku5001006/robotism_ws/src/robotics_software_engineer/module_1_assignment/build/CMakeFiles/Task_1.dir
+/home/ku5001006/robotism_ws/src/robotics_software_engineer/module_1_assignment/build/CMakeFiles/test.dir
+/home/ku5001006/robotism_ws/src/robotics_software_engineer/module_1_assignment/build/CMakeFiles/edit_cache.dir
+/home/ku5001006/robotism_ws/src/robotics_software_engineer/module_1_assignment/build/CMakeFiles/rebuild_cache.dir
+/home/ku5001006/robotism_ws/src/robotics_software_engineer/module_1_assignment/build/CMakeFiles/list_install_components.dir
+/home/ku5001006/robotism_ws/src/robotics_software_engineer/module_1_assignment/build/CMakeFiles/install.dir
+/home/ku5001006/robotism_ws/src/robotics_software_engineer/module_1_assignment/build/CMakeFiles/install/local.dir
+/home/ku5001006/robotism_ws/src/robotics_software_engineer/module_1_assignment/build/CMakeFiles/install/strip.dir
