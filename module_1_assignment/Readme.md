@@ -29,6 +29,12 @@ Utilize namespaces for defining different robots.
 Output each action to the console to show the robot's behavior.
 - **Learning Outcome**: Grasp OOP principles and their application in robotics software development.
 
+- **How to simulate the Task_1:**
+    -   cd build
+    -   cmake ..
+    -   make
+    -   ./Task_2
+
 ### Assignment 3: Creating Custom Libraries for Robotics Components
 - **Objective**: Learn how to create and use custom C++ libraries for reusable robotics components.
 - **Tasks**:
