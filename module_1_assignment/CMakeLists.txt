@@ -7,13 +7,12 @@ endif()
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
-# uncomment the following section in order to fill in
-# further dependencies manually.
-# find_package(<dependency> REQUIRED)
 
+# find_package(<dependency> REQUIRED)
 include_directories(include)
 
 add_executable(Task_1 src/Task_1.cpp)
+add_executable(Task_2 src/Task_2.cpp)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

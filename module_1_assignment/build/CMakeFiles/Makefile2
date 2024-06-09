@@ -64,6 +64,7 @@ CMAKE_BINARY_DIR = /home/ku5001006/robotism_ws/src/robotics_software_engineer/mo
 
 # The main recursive "all" target.
 all: CMakeFiles/Task_1.dir/all
+all: CMakeFiles/Task_2.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -74,6 +75,7 @@ preinstall:
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/module_1_assignment_uninstall.dir/clean
 clean: CMakeFiles/Task_1.dir/clean
+clean: CMakeFiles/Task_2.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -153,6 +155,32 @@ Task_1: CMakeFiles/Task_1.dir/rule
 CMakeFiles/Task_1.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task_1.dir/build.make CMakeFiles/Task_1.dir/clean
 .PHONY : CMakeFiles/Task_1.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Task_2.dir
+
+# All Build rule for target.
+CMakeFiles/Task_2.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task_2.dir/build.make CMakeFiles/Task_2.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task_2.dir/build.make CMakeFiles/Task_2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ku5001006/robotism_ws/src/robotics_software_engineer/module_1_assignment/build/CMakeFiles --progress-num=3,4 "Built target Task_2"
+.PHONY : CMakeFiles/Task_2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Task_2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ku5001006/robotism_ws/src/robotics_software_engineer/module_1_assignment/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Task_2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ku5001006/robotism_ws/src/robotics_software_engineer/module_1_assignment/build/CMakeFiles 0
+.PHONY : CMakeFiles/Task_2.dir/rule
+
+# Convenience name for target.
+Task_2: CMakeFiles/Task_2.dir/rule
+.PHONY : Task_2
+
+# clean rule for target.
+CMakeFiles/Task_2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task_2.dir/build.make CMakeFiles/Task_2.dir/clean
+.PHONY : CMakeFiles/Task_2.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
