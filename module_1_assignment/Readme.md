@@ -38,14 +38,21 @@ Output each action to the console to show the robot's behavior.
 ### Assignment 3: Creating Custom Libraries for Robotics Components
 - **Objective**: Learn how to create and use custom C++ libraries for reusable robotics components.
 - **Tasks**:
-Design a simple sensor library that includes classes for different types of sensors
+1. Design a simple sensor library that includes classes for different types of sensors
     - TemperatureSensor
     - DistanceSensor
-Use these classes in a main program to simulate getting readings from sensors.
-Ensure proper documentation and use CMakeLists for building the project.
 
-- Create Single Class Template to be utilized for multiple Sensors of different types
+2. Use these classes in a main program to simulate getting readings from sensors.
+    - Ensure proper documentation and use CMakeLists for building the project.
+
+3. Create Single Class Template to be utilized for multiple Sensors of different types
     - Double data
     - String Data
     - Character data
 - **Learning Outcome**: Understand how to organize code into reusable libraries and compile them using CMake.
+
+- **How to simulate the Task_1:**
+    -   cd build
+    -   cmake ..
+    -   make
+    -   ./Task_3
