@@ -29,7 +29,7 @@ Utilize namespaces for defining different robots.
 Output each action to the console to show the robot's behavior.
 - **Learning Outcome**: Grasp OOP principles and their application in robotics software development.
 
-- **How to simulate the Task_1:**
+- **How to simulate the Task_2:**
     -   cd build
     -   cmake ..
     -   make
@@ -51,7 +51,7 @@ Output each action to the console to show the robot's behavior.
     - Character data
 - **Learning Outcome**: Understand how to organize code into reusable libraries and compile them using CMake.
 
-- **How to simulate the Task_1:**
+- **How to simulate the Task_3:**
     -   cd build
     -   cmake ..
     -   make
