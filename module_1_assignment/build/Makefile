@@ -223,6 +223,19 @@ Task_2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task_2.dir/build.make CMakeFiles/Task_2.dir/build
 .PHONY : Task_2/fast
 
+#=============================================================================
+# Target rules for targets named Task_3
+
+# Build rule for target.
+Task_3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Task_3
+.PHONY : Task_3
+
+# fast build rule for target.
+Task_3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task_3.dir/build.make CMakeFiles/Task_3.dir/build
+.PHONY : Task_3/fast
+
 src/Task_1.o: src/Task_1.cpp.o
 .PHONY : src/Task_1.o
 
@@ -271,6 +284,30 @@ src/Task_2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task_2.dir/build.make CMakeFiles/Task_2.dir/src/Task_2.cpp.s
 .PHONY : src/Task_2.cpp.s
 
+src/Task_3.o: src/Task_3.cpp.o
+.PHONY : src/Task_3.o
+
+# target to build an object file
+src/Task_3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task_3.dir/build.make CMakeFiles/Task_3.dir/src/Task_3.cpp.o
+.PHONY : src/Task_3.cpp.o
+
+src/Task_3.i: src/Task_3.cpp.i
+.PHONY : src/Task_3.i
+
+# target to preprocess a source file
+src/Task_3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task_3.dir/build.make CMakeFiles/Task_3.dir/src/Task_3.cpp.i
+.PHONY : src/Task_3.cpp.i
+
+src/Task_3.s: src/Task_3.cpp.s
+.PHONY : src/Task_3.s
+
+# target to generate assembly for a file
+src/Task_3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task_3.dir/build.make CMakeFiles/Task_3.dir/src/Task_3.cpp.s
+.PHONY : src/Task_3.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -288,12 +325,16 @@ help:
 	@echo "... uninstall"
 	@echo "... Task_1"
 	@echo "... Task_2"
+	@echo "... Task_3"
 	@echo "... src/Task_1.o"
 	@echo "... src/Task_1.i"
 	@echo "... src/Task_1.s"
 	@echo "... src/Task_2.o"
 	@echo "... src/Task_2.i"
 	@echo "... src/Task_2.s"
+	@echo "... src/Task_3.o"
+	@echo "... src/Task_3.i"
+	@echo "... src/Task_3.s"
 .PHONY : help
 
 

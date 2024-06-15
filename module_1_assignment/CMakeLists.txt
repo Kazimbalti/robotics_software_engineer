@@ -13,6 +13,7 @@ include_directories(include)
 
 add_executable(Task_1 src/Task_1.cpp)
 add_executable(Task_2 src/Task_2.cpp)
+add_executable(Task_3 src/Task_3.cpp)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
